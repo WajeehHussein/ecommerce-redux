@@ -9,7 +9,7 @@ import {navlist} from '../assets/data/data';
 
 const Header = () => {
 
-  window.addEventListener("scroll", function () {
+  window.addEventListener("scroll",  () => {
     const header = this.document.querySelector(".header")
     header.classList.toggle("active", this.window.scrollY > 100)
   })
@@ -53,8 +53,6 @@ const Header = () => {
                 <BsBagCheck className='shop heIcon'/>
                 MY CART (0)
               </button>
-
-
             </div>
           </div>
         </div>
