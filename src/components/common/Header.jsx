@@ -104,7 +104,7 @@ const Header = () => {
                           <div className="details_content_detail_price">
                             <p>{e.title.slice(0,20)} ... </p>
                             <p>Price : ${e.price} </p>
-                            <p>Quantity : ${e.qty} </p>
+                            <p>Quantity : {e.qty} </p>
                           </div>
                         </div>
 
